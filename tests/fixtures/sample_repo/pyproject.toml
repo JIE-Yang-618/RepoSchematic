@@ -1,0 +1,7 @@
+[project]
+name = "sample-app"
+version = "0.1.0"
+dependencies = ["fastapi>=0.100", "sqlalchemy>=2"]
+
+[project.scripts]
+sample = "sample.cli:main"
